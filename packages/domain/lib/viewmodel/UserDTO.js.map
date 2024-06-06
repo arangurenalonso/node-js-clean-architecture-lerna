@@ -1,0 +1,1 @@
+{"version":3,"file":"UserDTO.js","sourceRoot":"","sources":["../../src/viewmodel/UserDTO.ts"],"names":[],"mappings":";;AACA,MAAM,OAAO;IACT,YAAmB,EAAU,EAAS,QAAgB,EAAS,KAAa;QAAzD,OAAE,GAAF,EAAE,CAAQ;QAAS,aAAQ,GAAR,QAAQ,CAAQ;QAAS,UAAK,GAAL,KAAK,CAAQ;IAE5E,CAAC;CACJ;AACD,kBAAe,OAAO,CAAA"}

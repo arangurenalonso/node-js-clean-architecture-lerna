@@ -1,0 +1,24 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "start": "npm run build && npx ts-node src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "tsyringe": "^4.8.0",
+    "reflect-metadata": "^0.2.2",
+    "yenv": "^3.0.1",
+    "@project-app/infrastructure": "^0.0.0",
+    "@project-app/rest": "^0.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "lerna": "^8.1.3",
+    "typescript": "^5.4.5"
+  }
+}
